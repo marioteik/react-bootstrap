@@ -1,13 +1,8 @@
 import "./App.css";
-import { Layout } from "./components/templates/layout";
-import Dashboard from "./pages/web/dashboard";
+import LogIn from "./pages/auth/login";
 
 function App() {
-  return (
-    <Layout>
-      <Dashboard />
-    </Layout>
-  );
+  return <LogIn />;
 }
 
 export default App;
